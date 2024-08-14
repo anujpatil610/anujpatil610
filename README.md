@@ -11,7 +11,7 @@ I am a dedicated Data Science graduate from Clarkson University, with a robust b
 ## 🎓 Education
 
 - **Master of Applied Data Science** - Clarkson University, NY, USA (2023-2024), GPA: 3.53/4
-- **Bachelor of Computer Science** - Savitribai Phule Pune University, India (2018-2022), GPA: 7.9/10
+- **Bachelor of Computer Science** - Savitribai Phule Pune University, India (2018-2023), GPA: 7.9/10
 
 ## 💼 Professional Experience
 
