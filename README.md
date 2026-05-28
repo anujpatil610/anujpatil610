@@ -1,9 +1,11 @@
 # Hi there, I'm Anuj Patil! 👋
 
+![Profile Views](https://komarev.com/ghpvc/?username=anujpatil610&color=blue)
+
 ## 🚀 Data Science & Technology Professional
 
 ### About Me
-I am a dedicated Data Science graduate with expertise in transforming complex data challenges into actionable insights through advanced analytics and cutting-edge technology. My passion lies in leveraging data-driven solutions to solve real-world problems while maintaining the highest standards of technical excellence and collaborative innovation.
+I am a dedicated Data Science graduate with expertise in transforming complex data challenges into actionable insights through advanced analytics and cutting-edge technology. My passion lies in lev[...]
 
 ### 🎯 Core Expertise
 
@@ -42,10 +44,10 @@ I am a dedicated Data Science graduate with expertise in transforming complex da
 **Development:** Git, GitHub Actions, FME, Jupyter, VS Code
 
 ### 🌱 Continuous Learning & Growth
-Committed to staying at the forefront of technological advancement through continuous learning, experimentation with emerging technologies, and active participation in the data science and GIS communities. I believe in the power of knowledge sharing and collaborative problem-solving to drive innovation.
+Committed to staying at the forefront of technological advancement through continuous learning, experimentation with emerging technologies, and active participation in the data science and GIS com[...]
 
 ### 🤝 Leadership & Collaboration
-Experienced in leading cross-functional teams, mentoring junior developers, and fostering collaborative environments that encourage innovation and knowledge sharing. I thrive in dynamic settings where diverse perspectives come together to tackle complex challenges.
+Experienced in leading cross-functional teams, mentoring junior developers, and fostering collaborative environments that encourage innovation and knowledge sharing. I thrive in dynamic settings w[...]
 
 ### 📫 Let's Connect
 - **Email:** anuj.patil4435@gmail.com
@@ -54,4 +56,4 @@ Experienced in leading cross-functional teams, mentoring junior developers, and 
 
 ---
 
-*Always open to collaborating on innovative data science, machine learning, and geospatial analytics projects. Let's connect and explore how we can leverage technology to create meaningful impact!*
+*Always open to collaborating on innovative data science, machine learning, and geospatial analytics projects. Let's connect and explore how we can leverage technology to create meaningful impact![...]
