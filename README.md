@@ -59,19 +59,27 @@ Experienced in leading cross-functional teams, mentoring junior developers, and 
 ## 📊 Contribution Dashboard
 
 <div align="center">
-  <h3>GitHub Statistics</h3>
   
-  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&theme=tokyonight&count_private=true)
+  ### 📈 GitHub Statistics
   
-  ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anujpatil610&layout=compact&theme=tokyonight)
+  [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)](https://github.com/anujpatil610)
   
-  <h3>Contribution Streak</h3>
+  ### 🔝 Top Languages
   
-  ![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anujpatil610&theme=tokyonight)
+  [![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anujpatil610&layout=compact&theme=tokyonight&hide_border=true)](https://github.com/anujpatil610)
   
-  <h3>Activity Graph</h3>
+  ---
   
-  ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anujpatil610&theme=tokyo-night&bg_color=1a1b27&color=70f0ff&line=70f0ff&point=ff006e&hide_border=true)
+  ### 🔥 Contribution Streak
+  
+  [![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anujpatil610&theme=tokyonight&hide_border=true)](https://github.com/anujpatil610)
+  
+  ---
+  
+  ### 📊 Activity Graph
+  
+  [![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anujpatil610&theme=tokyo-night&bg_color=1a1b27&color=70f0ff&line=70f0ff&point=ff006e&hide_border=true)](https://github.com/anujpatil610)
+  
 </div>
 
 ---
