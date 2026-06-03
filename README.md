@@ -1,71 +1,60 @@
-# Hi there, I'm Anuj Patil! 👋
+# Hi, I'm Anuj Patil 👋
 
-![Profile Views](https://komarev.com/ghpvc/?username=anujpatil610&color=blue)
+**GIS Data Scientist** building software for **rural public transit** — the kind of agency that metro vendors overlook.
 
-## 🚀 Data Science & Technology Professional
+I spend most of my time at the intersection of geospatial data, GTFS, and full-stack product engineering. My focus is closed-loop operations tooling for small transit agencies in upstate New York: turning driver activity, vehicle position, and ridership data into something dispatchers and planners can actually act on.
 
-### About Me
-I am a dedicated Data Science graduate with expertise in transforming complex data challenges into actionable insights through advanced analytics and cutting-edge technology. My passion lies in leveraging data-driven solutions to solve real-world problems and drive organizational growth.
+---
 
-### 🎯 Core Expertise
+## 🛠️ What I'm building
 
-**Data Science & Machine Learning**
-- Advanced machine learning algorithms and statistical modeling
-- Deep learning architectures (CNNs, RNNs) using TensorFlow and Keras
-- Predictive analytics and model optimization techniques
-- Feature engineering and data preprocessing pipelines
+I design and build the **GTFS Foundry** product family end-to-end — backend, frontend, mobile, and the data pipelines underneath:
 
-**Geospatial Analytics & GIS**
-- Spatial data analysis and remote sensing applications
-- GIS development with ArcGIS Pro, QGIS, and spatial databases
-- Geospatial visualization and interactive mapping solutions
-- Integration of GPS/GTFS data for transportation analytics
+- **GTFS Control Tower** — operations platform for rural agencies. Flag-stop and detour tracking, OD segment analysis, GTFS-Flex zone classification, schedule adherence, and live dispatch. (TypeScript/React + Express + Postgres, deployed on Vercel + Railway.)
+- **Foundry Pilot** — an Android driver kiosk app (Capacitor + Vite/React). Passenger counting, detour logging, flag-stop boardings, offline turn-by-turn navigation, and GPS that doubles as a zero-hardware AVL source.
+- **GTFS Foundry** — a GTFS validation suite built on the MobilityData validator, with static + real-time feed checks and delta reporting.
 
-**Cloud & Data Infrastructure**
-- Cloud-native solutions on AWS (CloudWatch, Redshift)
-- Database management (PostgreSQL, MySQL, Snowflake)
-- ETL pipeline design and data integration workflows
-- Scalable data architecture and processing systems
+The thesis: the features small agencies need most — **GTFS-Flex, detour detection, service alerts, flag-stop monitoring, deviated routes, and first-/last-mile** — are exactly the ones built for metro systems tend to ignore. So I build them for rural ops from the ground up.
 
-**Modern Development Practices**
-- Version control and collaborative development (Git/GitHub)
-- Containerization and deployment (Docker, Dev Containers)
-- CI/CD pipeline implementation and automation
-- Reproducible workflows and environment management
-- Agile methodologies and project management
+---
 
-### 💼 Technical Stack
+## 🧰 Tech I work with
 
-**Programming & Analytics:** Python, R, MATLAB, SQL
-**Web Technologies:** HTML, CSS, JavaScript, Node.js, React.js
-**Data Science Tools:** Pandas, NumPy, Scikit-learn, TensorFlow, Keras
-**GIS & Spatial:** ArcGIS Pro, QGIS, GDAL, PostGIS, ArcPy
-**Cloud & Infrastructure:** AWS, Docker, PostgreSQL, Snowflake
-**Development:** Git, GitHub Actions, FME, Jupyter, VS Code
+**Languages:** Python, TypeScript, JavaScript, SQL
+**Frontend:** React, Vite, Capacitor (Android), Mapbox
+**Backend:** Node.js / Express, Postgres / PostGIS, Zod, JWT, SSE
+**Cloud & infra:** Vercel, Railway, AWS (Lambda, S3, SNS, CloudWatch), Docker
+**GIS & transit:** ArcGIS Pro, ArcGIS Online, QGIS, GTFS / GTFS-RT / GTFS-Flex, GeoPandas
+**Tooling:** Git & GitHub Actions, Jupyter, VS Code
 
-### 🌱 Continuous Learning & Growth
-Committed to staying at the forefront of technological advancement through continuous learning, experimentation with emerging technologies, and active participation in the data science and GIS communities.
+---
 
-### 🤝 Leadership & Collaboration
-Experienced in leading cross-functional teams, mentoring junior developers, and fostering collaborative environments that encourage innovation and knowledge sharing. I thrive in dynamic settings where creativity and technical excellence drive success.
+## 🎓 Background
 
-### 📫 Let's Connect
+- **MS, Applied Data Science** — Clarkson University
+- Presented at the **MobilityData Conference 2024**
+- Earlier: GIS and transportation data analysis — OD mapping for first-/last-mile planning, AWS-based KPI and detour-detection pipelines, GTFS validation, and ArcGIS dashboards.
+
+---
+
+## 📫 Let's connect
+
 - **Email:** anuj.patil4435@gmail.com
 - **LinkedIn:** [Anuj Patil](https://www.linkedin.com/in/anuj-patil-37a15414b)
-- **GitHub:** [anujpatil610](https://github.com/anujpatil610)
+- **GitHub:** [@anujpatil610](https://github.com/anujpatil610)
+
+Always happy to talk transit data, GTFS, or building software for places the big vendors skip.
 
 ---
 
-## 📊 Contribution Dashboard
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&hide_border=true&count_private=true" alt="Anuj's GitHub stats" />
+</p>
 
-<div align="center">
+<p align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=anujpatil610&hide_border=true" alt="GitHub streak" />
+</p>
 
-### 📊 Activity Graph
-
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anujpatil610&theme=tokyo-night&bg_color=0d1117&color=70f0ff&line=70f0ff&point=ff006e&hide_border=true)
-
-</div>
-
----
-
-*Always open to collaborating on innovative data science, machine learning, and geospatial analytics projects. Let's connect and explore how we can leverage technology to create meaningful impact!*
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=anujpatil610&hide_border=true" alt="Contribution activity graph" />
+</p>
