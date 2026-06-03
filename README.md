@@ -60,12 +60,6 @@ Experienced in leading cross-functional teams, mentoring junior developers, and 
 
 <div align="center">
 
-### 📈 GitHub Statistics
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117)
-
----
-
 ### 📊 Activity Graph
 
 ![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=anujpatil610&theme=tokyo-night&bg_color=0d1117&color=70f0ff&line=70f0ff&point=ff006e&hide_border=true)
