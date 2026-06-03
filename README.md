@@ -5,7 +5,7 @@
 ## 🚀 Data Science & Technology Professional
 
 ### About Me
-I am a dedicated Data Science graduate with expertise in transforming complex data challenges into actionable insights through advanced analytics and cutting-edge technology. My passion lies in lev[...]
+I am a dedicated Data Science graduate with expertise in transforming complex data challenges into actionable insights through advanced analytics and cutting-edge technology. My passion lies in leveraging data-driven solutions to solve real-world problems and drive organizational growth.
 
 ### 🎯 Core Expertise
 
@@ -44,10 +44,10 @@ I am a dedicated Data Science graduate with expertise in transforming complex da
 **Development:** Git, GitHub Actions, FME, Jupyter, VS Code
 
 ### 🌱 Continuous Learning & Growth
-Committed to staying at the forefront of technological advancement through continuous learning, experimentation with emerging technologies, and active participation in the data science and GIS com[...]
+Committed to staying at the forefront of technological advancement through continuous learning, experimentation with emerging technologies, and active participation in the data science and GIS communities.
 
 ### 🤝 Leadership & Collaboration
-Experienced in leading cross-functional teams, mentoring junior developers, and fostering collaborative environments that encourage innovation and knowledge sharing. I thrive in dynamic settings w[...]
+Experienced in leading cross-functional teams, mentoring junior developers, and fostering collaborative environments that encourage innovation and knowledge sharing. I thrive in dynamic settings where creativity and technical excellence drive success.
 
 ### 📫 Let's Connect
 - **Email:** anuj.patil4435@gmail.com
@@ -64,16 +64,6 @@ Experienced in leading cross-functional teams, mentoring junior developers, and 
 
 ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&theme=tokyonight&count_private=true&hide_border=true&bg_color=0d1117)
 
-### 🔝 Top Languages
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=anujpatil610&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
-
----
-
-### 🔥 Contribution Streak
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=anujpatil610&theme=tokyonight&hide_border=true&background=0d1117)
-
 ---
 
 ### 📊 Activity Graph
@@ -84,4 +74,4 @@ Experienced in leading cross-functional teams, mentoring junior developers, and 
 
 ---
 
-*Always open to collaborating on innovative data science, machine learning, and geospatial analytics projects. Let's connect and explore how we can leverage technology to create meaningful impact![...]
+*Always open to collaborating on innovative data science, machine learning, and geospatial analytics projects. Let's connect and explore how we can leverage technology to create meaningful impact!*
