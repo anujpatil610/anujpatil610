@@ -30,7 +30,7 @@ I build at the intersection of spatial analytics and transportation — GTFS and
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&hide_border=true&count_private=true" alt="Anuj's GitHub stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=anujpatil610&show_icons=true&hide_border=true&cache_seconds=86400" alt="Anuj's GitHub stats" />
 </p>
 
 <p align="center">
