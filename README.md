@@ -1,6 +1,6 @@
 # Hi, I'm Anuj Patil 👋
 
-**GIS Data Scientist** building software for **rural public transit** — the kind of agency that metro vendors overlook.
+**Turning spatial data into systems that move.**
 
 I spend most of my time at the intersection of geospatial data, GTFS, and full-stack product engineering. My focus is closed-loop operations tooling for small transit agencies in upstate New York: turning driver activity, vehicle position, and ridership data into something dispatchers and planners can actually act on.
 
