@@ -1,4 +1,4 @@
-# Anuj Patil
+# Anuj R. Patil
 
 **Turning spatial data into systems that move.**
 
