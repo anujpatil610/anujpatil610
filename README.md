@@ -6,6 +6,8 @@ I turn transit operations problems into data systems: GTFS pipelines, service KP
 
 M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitribai Phule Pune University · Selected speaker, MobilityData Conference, Montréal 2024
 
+🌐 **[arpatil.xyz](https://arpatil.xyz)** — full portfolio, project write-ups, and résumé
+
 📍 Potsdam, NY — open to remote and willing to relocate. Currently looking for Transit Data Analyst, GIS Data Analyst, Data Engineer, and Data Scientist roles.
 
 ---
@@ -70,4 +72,4 @@ M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitri
 
 ### Connect
 
-[Email](mailto:anuj.patil4435@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anujrpatil)
+[Portfolio](https://arpatil.xyz) · [Email](mailto:anuj.patil4435@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anujrpatil)
