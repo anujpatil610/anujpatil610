@@ -4,17 +4,19 @@
 
 I turn transit operations problems into data systems: GTFS pipelines, service KPIs, and the spatial models underneath them. Currently at the Volunteer Transportation Center, running the geospatial and data backbone for public transit across five counties in northern New York — the analytics and tools used by planners, dispatchers, and riders.
 
-M.S. Applied Data Science, Clarkson University · Selected speaker, MobilityData Conference, Montréal 2024
+M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitribai Phule Pune University · Selected speaker, MobilityData Conference, Montréal 2024
+
+📍 Potsdam, NY — open to remote and willing to relocate. Currently looking for Transit Data Analyst, GIS Data Analyst, Data Engineer, and Data Scientist roles.
 
 ---
 
 ### What I've shipped
 
-**GTFS-RT pipeline for $4/month** — Lambda + S3 with 30-day history, powering on-time performance and service analysis across the agency. Cut manual data processing in half. Presented the architecture at MobilityData 2024.
+**GTFS-RT pipeline for $4/month** — Lambda + S3 with 30-day history, powering on-time performance and service analysis across the agency. Unified GTFS static/RT/Flex behind automated QA and standardized the agency's ridership, OTP, coverage, and access/equity KPIs. Cut manual data processing in half. Presented the architecture at MobilityData 2024.
 
 **Unified service design across 5 counties** — aligned fixed-route, first/last-mile, and zone-based microtransit using demand, travel-time, and OTP analysis. Co-developed the microtransit zones and service windows, and shipped LLM assistants for fixed-route dispatch that improved dispatch efficiency by 30%.
 
-**GTFS-RT validation on $8/month** — Terraform-provisioned EC2 running MobilityData's validator against St. Lawrence County Transit's realtime feed, with SNS alerting and S3 report history, scheduled to service hours. → [SLC-Transit-GTFS-RT-Validator](https://github.com/anujpatil610/SLC-Transit-GTFS-RT-Validator)
+**GTFS-RT validation on $8/month** — data-quality monitoring for St. Lawrence County Transit's realtime feed: Terraform-provisioned EC2, Dockerized MobilityData validator, cron scheduling aligned to service hours, SNS alerting on critical errors, and S3 report history. → [SLC-Transit-GTFS-RT-Validator](https://github.com/anujpatil610/SLC-Transit-GTFS-RT-Validator)
 
 **Wildlife–vehicle collision hotspots, A2A corridor** — joined 1,000+ collision records with traffic volume, speed limits, land cover, water proximity, and slope; kernel-density screening followed by penalized regression to rank predictors. Mitigation layers delivered to 3 counties.
 
