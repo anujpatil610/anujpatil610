@@ -1,8 +1,8 @@
 # Anuj R. Patil
 
-**GIS Data Scientist — transit analytics & geospatial engineering**
+**GIS Data Scientist — transit analytics, transportation AI & geospatial engineering**
 
-I turn transit operations problems into data systems: GTFS pipelines, service KPIs, and the spatial models underneath them. Currently at the Volunteer Transportation Center, running the geospatial and data backbone for public transit across five counties in northern New York — the analytics and tools used by planners, dispatchers, and riders.
+I turn transit operations problems into data systems: GTFS pipelines, service KPIs, and the spatial models underneath them. Currently at the Volunteer Transportation Center, running the geospatial [...]
 
 M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitribai Phule Pune University · Selected speaker, MobilityData Conference, Montréal 2024
 
@@ -12,19 +12,38 @@ M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitri
 
 ---
 
+### Experience
+
+**Government & Transportation Agency Partnerships**<br>
+Collaborative work with state DOTs and federal transportation agencies (FHWA, USDOT) on applied AI initiatives. Direct engagement with technical working groups and policy development in transportation and environmental sectors. Experience supporting stakeholder coordination across multi-agency and non-governmental organization (NGO) partnerships to align AI strategy with agency operations and regulatory frameworks.
+
+**Synthetic Data Generation & Generative AI for Transportation**<br>
+Development of synthetic dataset pipelines for transportation modeling, addressing data scarcity in demand modeling, service design, and operational forecasting. Applied generative AI techniques (LLMs, diffusion models) to generate realistic transit schedules, passenger travel patterns, and edge-case scenarios. Integration of synthetic data into model training workflows for improved generalization in production systems.
+
+**Physics-Informed Machine Learning for Transportation**<br>
+Implementation of physics-informed neural networks (PINNs) and hybrid models combining domain knowledge from transportation engineering with data-driven ML. Applications include vehicle routing optimization under traffic dynamics, real-time arrival prediction with road network constraints, and collision risk modeling informed by traffic flow physics and environmental factors. Used to reduce training data requirements and improve model interpretability for regulatory compliance.
+
+**Environmental & Economic Modeling**<br>
+Quantitative analysis of transportation emissions, air quality impact, and carbon risk across multi-region audit datasets (10M+ records, US/EU/CA/IN). Built predictive models for emissions risk and cost-effectiveness analysis of transit interventions. Integrated environmental modeling with demand forecasting and service optimization to evaluate trade-offs between system efficiency, equity, and sustainability outcomes.
+
+**Stakeholder Engagement & Technical Communication**<br>
+Cross-functional collaboration with DOT planners, elected officials, community organizations, and technical teams to translate AI/ML outputs into actionable policy and operational recommendations. Experience bridging technical complexity with non-technical stakeholder needs, conducting workshops, and developing decision-support tools for evidence-based transportation planning.
+
+---
+
 ### What I've shipped
 
-**GTFS-RT pipeline for $4/month** — Lambda + S3 with 30-day history, powering on-time performance and service analysis across the agency. Unified GTFS static/RT/Flex behind automated QA and standardized the agency's ridership, OTP, coverage, and access/equity KPIs. Cut manual data processing in half. Presented the architecture at MobilityData 2024.
+**GTFS-RT pipeline for $4/month** — Lambda + S3 with 30-day history, powering on-time performance and service analysis across the agency. Unified GTFS static/RT/Flex behind automated QA and stan[...]
 
-**Unified service design across 5 counties** — aligned fixed-route, first/last-mile, and zone-based microtransit using demand, travel-time, and OTP analysis. Co-developed the microtransit zones and service windows, and shipped LLM assistants for fixed-route dispatch that improved dispatch efficiency by 30%.
+**Unified service design across 5 counties** — aligned fixed-route, first/last-mile, and zone-based microtransit using demand, travel-time, and OTP analysis. Co-developed the microtransit zones [...]
 
-**GTFS-RT validation on $8/month** — data-quality monitoring for St. Lawrence County Transit's realtime feed: Terraform-provisioned EC2, Dockerized MobilityData validator, cron scheduling aligned to service hours, SNS alerting on critical errors, and S3 report history. → [SLC-Transit-GTFS-RT-Validator](https://github.com/anujpatil610/SLC-Transit-GTFS-RT-Validator)
+**GTFS-RT validation on $8/month** — data-quality monitoring for St. Lawrence County Transit's realtime feed: Terraform-provisioned EC2, Dockerized MobilityData validator, cron scheduling aligne[...]
 
-**Wildlife–vehicle collision hotspots, A2A corridor** — joined 1,000+ collision records with traffic volume, speed limits, land cover, water proximity, and slope; kernel-density screening followed by penalized regression to rank predictors. Mitigation layers delivered to 3 counties.
+**Wildlife–vehicle collision hotspots, A2A corridor** — joined 1,000+ collision records with traffic volume, speed limits, land cover, water proximity, and slope; kernel-density screening foll[...]
 
-**Booking cancellation model at 88.3% accuracy** — CatBoost with cross-validated hyperparameter search; feature importance and partial dependence to explain lead time, ADR, and cancellation history. → [repo](https://github.com/anujpatil610/Predictive-Analysis-and-Key-Determinants-of-Hotel-Booking-Cancellations)
+**Booking cancellation model at 88.3% accuracy** — CatBoost with cross-validated hyperparameter search; feature importance and partial dependence to explain lead time, ADR, and cancellation hist[...]
 
-**Carbon emissions risk models** — analyzed 10M+ environmental audit records across US/EU/CA/IN and built Random Forest predictors for emissions risk. → [repo](https://github.com/anujpatil610/Climate-Change-Risk-and-Opportunity-Analysis)
+**Carbon emissions risk models** — analyzed 10M+ environmental audit records across US/EU/CA/IN and built Random Forest predictors for emissions risk. → [repo](https://github.com/anujpatil610/[...]
 
 ---
 
