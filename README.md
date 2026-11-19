@@ -1,49 +1,44 @@
 # Anuj R. Patil
 
-**GIS Data Scientist — transit analytics, transportation AI & geospatial engineering**
+**Senior Data Scientist — Transit Data Platforms · Geospatial Analytics · Machine Learning**
 
-I turn transit operations problems into data systems: GTFS pipelines, service KPIs, and the spatial models underneath them. Currently at the Volunteer Transportation Center, running the geospatial [...]
+I design and operate the data infrastructure behind public transit: GTFS and GTFS-Realtime feeds, fleet telemetry, service analytics, and the maps and dashboards that turn them into operating decisions. At the Volunteer Transportation Center I own the transit data platform for three public agencies across five counties in northern New York. That covers ingestion, validation, modeling, and publishing to riders, planners, and partners such as Google Maps and Transit.
 
-M.S. Applied Data Science, Clarkson University · B.E. Computer Science, Savitribai Phule Pune University · Selected speaker, MobilityData Conference, Montréal 2024
+M.S. Applied Data Science, Clarkson University · B.E. Computer Engineering, Savitribai Phule Pune University · Speaker, MobilityData Conference, Montréal 2024
 
-🌐 **[arpatil.xyz](https://arpatil.xyz)** — full portfolio, project write-ups, and résumé
-
-📍 Potsdam, NY — open to remote and willing to relocate. Currently looking for Transit Data Analyst, GIS Data Analyst, Data Engineer, and Data Scientist roles.
+🌐 **[arpatil.xyz](https://arpatil.xyz)** · 🚌 **[gtfsfoundry.com](https://gtfsfoundry.com)** · 📍 Potsdam, NY
 
 ---
 
-### Experience
+### Platform architecture — the Foundry product family
 
-**Government & Transportation Agency Partnerships**<br>
-Collaborative work with state DOTs and federal transportation agencies (FHWA, USDOT) on applied AI initiatives. Direct engagement with technical working groups and policy development in transportation and environmental sectors. Experience supporting stakeholder coordination across multi-agency and non-governmental organization (NGO) partnerships to align AI strategy with agency operations and regulatory frameworks.
+A closed-loop transit operations platform I architected and built end to end, now in field pilot with agency operations.
 
-**Synthetic Data Generation & Generative AI for Transportation**<br>
-Development of synthetic dataset pipelines for transportation modeling, addressing data scarcity in demand modeling, service design, and operational forecasting. Applied generative AI techniques (LLMs, diffusion models) to generate realistic transit schedules, passenger travel patterns, and edge-case scenarios. Integration of synthetic data into model training workflows for improved generalization in production systems.
+- **GTFS Control Tower** — multi-tenant SaaS for authoring, validating, and publishing GTFS Static, Realtime, and Flex. Tenant data isolation, role-based access control with capability gates, a release pipeline gated on validation quality, protobuf GTFS-RT publishing, live dispatch, and a third-party feed-monitoring tier. Stack: React/TypeScript, Directus, PostgreSQL, Redis, Python workers, Docker on AWS, and Prometheus/Grafana for observability.
+- **Foundry Pilot** — offline-first Android/PWA driver application for automated passenger counting, flag-stop and detour logging, and realtime vehicle position and occupancy. Durable local queuing with batched sync, HMAC-signed device authentication, and kiosk-mode device management.
+- **GTFS Foundry** — feed validation and data quality suite built on the MobilityData canonical validator.
 
-**Physics-Informed Machine Learning for Transportation**<br>
-Implementation of physics-informed neural networks (PINNs) and hybrid models combining domain knowledge from transportation engineering with data-driven ML. Applications include vehicle routing optimization under traffic dynamics, real-time arrival prediction with road network constraints, and collision risk modeling informed by traffic flow physics and environmental factors. Used to reduce training data requirements and improve model interpretability for regulatory compliance.
+### Transit data engineering
 
-**Environmental & Economic Modeling**<br>
-Quantitative analysis of transportation emissions, air quality impact, and carbon risk across multi-region audit datasets (10M+ records, US/EU/CA/IN). Built predictive models for emissions risk and cost-effectiveness analysis of transit interventions. Integrated environmental modeling with demand forecasting and service optimization to evaluate trade-offs between system efficiency, equity, and sustainability outcomes.
+- **Production GTFS publishing and Google Maps onboarding** — led the technical side of the Jefferson County Public Transit launch, from feed authoring through Google Transit quality review and the GTFS-Realtime launch with the AVL vendor. Also integrated with the Transit app.
+- **Serverless realtime archive** — event-driven AWS Lambda + S3 data lake retaining GTFS-RT history. It is the foundation for on-time performance and service reliability analytics, built to run at minimal operating cost.
+- **Telemetry processing at scale** — GPS stop-arrival and dwell-time pipelines with parallelized Lambda workers, plus automated detour detection with SNS alerting.
+- **Feed reliability monitoring** — infrastructure-as-code (Terraform) and containerized validation, scheduled to service hours, with alerting on critical errors and historical reporting. The monitored network serves a 28-bus fleet that has carried about 1M passengers during my tenure. → [SLC-Transit-GTFS-RT-Validator](https://github.com/anujpatil610/SLC-Transit-GTFS-RT-Validator)
+- **Public data delivery** — CDN-hardened feed hosting (Cloudflare) and automated GTFS-to-ArcGIS Online refresh for public maps and Experience Builder apps.
 
-**Stakeholder Engagement & Technical Communication**<br>
-Cross-functional collaboration with DOT planners, elected officials, community organizations, and technical teams to translate AI/ML outputs into actionable policy and operational recommendations. Experience bridging technical complexity with non-technical stakeholder needs, conducting workshops, and developing decision-support tools for evidence-based transportation planning.
+### Analytics, modeling & applied AI
 
----
+- **Service planning decision support** — self-serve dashboard with trip-level decision scoring (cut, consolidate, retime, protect), route diagnostics across APC, load, dwell, and deviation, and coverage-gap and flag-stop clustering.
+- **Network and microtransit design** — origin-destination and first/last-mile analysis to co-design zone-based microtransit and align fixed-route, Flex, and on-demand service.
+- **Applied ML for transportation** — physics-informed and hybrid models for routing, arrival prediction, and collision risk; LLM-driven synthetic data generation where real data is sparse.
+- **Agency collaboration** — work with NYSDOT and federal partners (FHWA, USDOT) on applied AI initiatives and multi-agency technical working groups.
 
-### What I've shipped
+### Selected research & projects
 
-**GTFS-RT pipeline for $4/month** — Lambda + S3 with 30-day history, powering on-time performance and service analysis across the agency. Unified GTFS static/RT/Flex behind automated QA and stan[...]
-
-**Unified service design across 5 counties** — aligned fixed-route, first/last-mile, and zone-based microtransit using demand, travel-time, and OTP analysis. Co-developed the microtransit zones [...]
-
-**GTFS-RT validation on $8/month** — data-quality monitoring for St. Lawrence County Transit's realtime feed: Terraform-provisioned EC2, Dockerized MobilityData validator, cron scheduling aligne[...]
-
-**Wildlife–vehicle collision hotspots, A2A corridor** — joined 1,000+ collision records with traffic volume, speed limits, land cover, water proximity, and slope; kernel-density screening foll[...]
-
-**Booking cancellation model at 88.3% accuracy** — CatBoost with cross-validated hyperparameter search; feature importance and partial dependence to explain lead time, ADR, and cancellation hist[...]
-
-**Carbon emissions risk models** — analyzed 10M+ environmental audit records across US/EU/CA/IN and built Random Forest predictors for emissions risk. → [repo](https://github.com/anujpatil610/[...]
+- **Road safety risk modeling** — unified crash, traffic, roadway geometry, and weather data into a segment-level composite risk score that prioritizes the top 5% of segments for engineering review. → [NYC crash & pavement analysis](https://github.com/anujpatil610/Analysis-of-Car-Crash-Data-and-Pavement-Ratings-in-New-York-City)
+- **Wildlife–vehicle collision hotspots (A2A corridor)** — kernel-density screening and penalized regression over 1,000+ collision records, producing mitigation layers delivered to three counties.
+- **Predictive modeling of booking cancellations** — gradient-boosted classifier (CatBoost, 88.3% accuracy) with model explainability through feature importance and partial dependence. → [repo](https://github.com/anujpatil610/Predictive-Analysis-and-Key-Determinants-of-Hotel-Booking-Cancellations)
+- **Climate risk analytics** — emissions risk prediction over 10M+ environmental audit records across the US, EU, Canada, and India. → [repo](https://github.com/anujpatil610/Climate-Change-Risk-and-Opportunity-Analysis)
 
 ---
 
@@ -58,7 +53,7 @@ Cross-functional collaboration with DOT planners, elected officials, community o
 ![GeoPandas](https://img.shields.io/badge/GeoPandas-139C5A?style=flat-square&logo=geopandas&logoColor=white)
 ![GDAL](https://img.shields.io/badge/GDAL-5CAE58?style=flat-square)
 ![H3](https://img.shields.io/badge/H3-1E54B7?style=flat-square)
-![FME](https://img.shields.io/badge/FME-F58220?style=flat-square)
+![Mapbox](https://img.shields.io/badge/Mapbox%20GL-000000?style=flat-square&logo=mapbox&logoColor=white)
 
 **ML & modeling**<br>
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white)
@@ -71,24 +66,29 @@ Cross-functional collaboration with DOT planners, elected officials, community o
 ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
 ![SQL](https://img.shields.io/badge/SQL-336791?style=flat-square)
 ![R](https://img.shields.io/badge/R-276DC3?style=flat-square&logo=r&logoColor=white)
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20EC2%20%7C%20S3%20%7C%20Redshift-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-Lambda%20%7C%20EC2%20%7C%20S3%20%7C%20SNS%20%7C%20Redshift-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=flat-square&logo=snowflake&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
 
-**Web & mobile**<br>
+**Application platform**<br>
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white)
-![Mapbox](https://img.shields.io/badge/Mapbox-000000?style=flat-square&logo=mapbox&logoColor=white)
+![Directus](https://img.shields.io/badge/Directus-263238?style=flat-square&logo=directus&logoColor=white)
 ![Capacitor](https://img.shields.io/badge/Capacitor-119EFF?style=flat-square&logo=capacitor&logoColor=white)
+![Prometheus](https://img.shields.io/badge/Prometheus-E6522C?style=flat-square&logo=prometheus&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
 ![Vercel](https://img.shields.io/badge/Vercel-000000?style=flat-square&logo=vercel&logoColor=white)
 
 ---
 
 ### Connect
 
-[Portfolio](https://arpatil.xyz) · [Email](mailto:anuj.patil4435@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anujrpatil)
+Open to conversations about transit data, geospatial platforms, and applied ML in mobility.
+
+[Portfolio](https://arpatil.xyz) · [GTFS Foundry](https://gtfsfoundry.com) · [Email](mailto:anuj.patil4435@gmail.com) · [LinkedIn](https://www.linkedin.com/in/anujrpatil)
