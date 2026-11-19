@@ -12,7 +12,7 @@ An open-standards operations platform for small and rural transit agencies, now 
 
 | | |
 |---|---|
-| **Control Tower** | Multi-tenant GTFS / GTFS-Flex authoring, validation-gated publishing, GTFS-Realtime feeds, live dispatch, and feed-health monitoring for agencies whose data comes from a third-party vendor. |
+| **Console** | Multi-tenant GTFS / GTFS-Flex authoring, validation-gated publishing, GTFS-Realtime feeds, live dispatch, and feed-health monitoring for agencies whose data comes from a third-party vendor. |
 | **Foundry Pilot** | Offline-first Android driver app for passenger counting, flag-stop and detour capture, and realtime vehicle position and occupancy. |
 | **Validation suite** | Continuous feed QA built on the MobilityData canonical validator. |
 
